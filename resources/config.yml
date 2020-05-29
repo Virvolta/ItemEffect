@@ -1,0 +1,41 @@
+---
+#The id of the item that will add the effects
+"353":
+  #The waiting period of the next use of the item in sec
+  countdown: 5
+  #Allows to have only one use per item
+  consume: true
+  #If you don't want a message put null
+  message: "§bWell done ,you have a Speed"
+
+  effect:
+
+    #The id of the effects
+    1:
+      #Allows you to add the time in sec to the effect
+      durability: 20
+      #Allows to add a specific force to the effect
+      amplifier: 2
+      #Allows you to set yes or no particles to the effect
+      visible: true
+
+#The id of the item that will add the effects
+"351:1":
+  #The waiting period of the next use of the item in sec
+  countdown: 0
+  #Allows to have only one use per item
+  consume: false
+  #If you don't want a message put null
+  message: null
+
+  effect:
+
+    #The id of the effects
+    6:
+      #Allows you to add the time in sec to the effect
+      durability: 1
+      #Allows to add a specific force to the effect
+      amplifier: 1
+      #Allows you to set yes or no particles to the effect
+      visible: false
+...
